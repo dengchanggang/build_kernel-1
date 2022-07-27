@@ -46,8 +46,8 @@ clean(){
 
 
 build_kernel(){
-	export KBUILD_BUILD_USER="zahi0"  
-	export KBUILD_BUILD_HOST="zahi0-server"  
+	export KBUILD_BUILD_USER="deng"  
+	export KBUILD_BUILD_HOST="deng-server"  
 	make $args wayne_defconfig #修改配置文件
 	if [ $? -ne 0 ]; then
       		exit 0
